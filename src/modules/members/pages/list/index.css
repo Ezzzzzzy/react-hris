@@ -1,0 +1,11 @@
+.filter-card h5 {
+  color: #8b99ac;
+}
+
+.checkbox-container {
+  padding-bottom: 30px;
+}
+
+.filter-card .ant-divider.ant-divider-horizontal {
+  margin: 20px 0;
+}

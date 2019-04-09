@@ -1,0 +1,145 @@
+{
+  "employment-status": [
+    {
+      "id": 1,
+      "name": "Probationary",
+      "type": "A",
+      "order": 2,
+      "status": 1,
+      "color": "#86B723",
+      "updated_by": "Jessie Gabudao"
+    },
+    {
+      "id": 2,
+      "name": "Seasonal",
+      "type": "A",
+      "order": 3,
+      "status": 1,
+      "color": "#2693E8",
+      "updated_by": "Jessie Gabudao"
+    },
+    {
+      "id": 3,
+      "name": "Regular",
+      "type": "A",
+      "order": 4,
+      "status": 1,
+      "color": "#86B723",
+      "updated_by": "Jessie Gabudao"
+    },
+    {
+      "id": 4,
+      "name": "Weekender",
+      "type": "A",
+      "order": 5,
+      "status": 1,
+      "color": "#86B723",
+      "updated_by": "Jessie Gabudao"
+    },
+    {
+      "id": 5,
+      "name": "Terminated",
+      "type": "I",
+      "order": 6,
+      "status": 1,
+      "color": "#636363",
+      "updated_by": "Jessie Gabudao"
+    },
+    {
+      "updated_by": "Jessie Gabudao",
+      "type": "I",
+      "name": "Upside Down",
+      "order": 6,
+      "color": "#F34D49",
+      "status": 1,
+      "id": 6
+    }
+  ],
+  "regions": [],
+  "cities": [],
+  "reasons-for-leaving": [
+    {
+      "id": 1,
+      "name": "Terminated",
+      "updated_by": "Jessie Gabudao",
+      "order": 0,
+      "status": 1
+    },
+    {
+      "id": 2,
+      "name": "Resigned - Work Load",
+      "updated_by": "Jessie Gabudao",
+      "order": 1,
+      "status": 1
+    },
+    {
+      "id": 3,
+      "name": "Resigned - Work Life Balance",
+      "updated_by": "Jessie Gabudao",
+      "order": 2,
+      "status": 1
+    },
+    {
+      "id": 4,
+      "name": "AWOL",
+      "updated_by": "Samantha Cruz",
+      "order": 3,
+      "status": 1
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    }
+  ],
+  "locations": [],
+  "tenure-types": [],
+  "document-types": [
+    {
+      "id": 1,
+      "name": "Birth Certificate",
+      "type": "Req",
+      "updated_by": "Jessie Gabudao",
+      "order": 0,
+      "status": 1
+    },
+    {
+      "id": 2,
+      "name": "TIN ID",
+      "type": "Req",
+      "updated_by": "Jessie Gabudao",
+      "order": 1,
+      "status": 1
+    },
+    {
+      "id": 3,
+      "name": "PMRF",
+      "type": "Con",
+      "updated_by": "Jessie Gabudao",
+      "order": 2,
+      "status": 1
+    },
+    {
+      "updated_by": "Jessie Gabudao",
+      "type": "Req",
+      "name": "Files",
+      "order": 4,
+      "status": 1,
+      "id": 4
+    },
+    {
+      "updated_by": "Jessie Gabudao",
+      "type": "Con",
+      "name": "Pagibig",
+      "order": 5,
+      "status": 1,
+      "id": 5
+    }
+  ],
+  "positions": [],
+  "members": [],
+  "user-groups": [],
+  "clients": [],
+  "users": []
+}

@@ -1,0 +1,18 @@
+.add-modal .ant-modal-header {
+	background: #148ef0;
+}
+.add-modal .ant-modal-title,
+.add-modal .ant-modal-close {
+	color: #ffffff;
+}
+
+.ant-modal-footer {
+	background: #F0F3F8
+}
+
+.modal-member-list {
+	min-height: 336px;
+	max-height: 336px;
+	background: #F8FAFC;
+	overflow-y : auto;
+}

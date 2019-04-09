@@ -1,0 +1,79 @@
+.login-form {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form .ant-form-item {
+    margin-bottom: 10px;
+}
+
+.login-form .ant-card.ant-card-bordered {
+    width: 100%;
+}
+
+.login-form .ant-card-body {
+    padding: 0;
+}
+
+.login-form .auth-container button.ant-btn.ant-btn-background-ghost {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.auth-container {
+    border-radius: 5px;
+}
+
+.auth-form{
+    padding: 24px;
+    z-index: 1;
+}
+
+.auth-form .text-center {
+    text-align: center;
+}
+
+.login-form .login-form-button {
+    width: 100%;
+}
+
+.ant-input, .ant-select-selection {
+    background-color: #F8FAFC;
+}
+
+.login-form .ant-btn-primary {
+    height: 48px;
+    background-color: #3CAD4B;
+    border-color: #2B9439;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.login-container {
+    background: #212531;
+}
+
+.login-container .ant-alert.ant-alert-success.ant-alert-banner {
+    background-color: #00d3a7;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.login-container .ant-alert-success .ant-alert-icon,
+.login-container span.ant-alert-message,
+.login-container .ant-alert-close-icon .anticon-cross {
+    color: #ffffff;
+}
+
+.login-container .ant-spin-nested-loading > div > .ant-spin {
+    height: 90vh;
+    max-height: 100%;
+}

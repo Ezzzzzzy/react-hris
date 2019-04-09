@@ -1,0 +1,11 @@
+.add-modal .ant-modal-header {
+	background: #148ef0;
+}
+.add-modal .ant-modal-title,
+.add-modal .ant-modal-close {
+	color: #ffffff;
+}
+
+.ant-modal-footer {
+	background: #F0F3F8
+}

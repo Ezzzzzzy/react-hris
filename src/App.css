@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.ant-layout .ant-layout-header {
+  background: #128CEE;
+  padding: 0 40px;
+}
+.ant-layout .ant-menu-dark {
+  color: rgba(255, 255, 255, 0.65);
+  background: #128CEE;
+}
+
+.ant-menu-dark ul.ant-menu-sub {
+  color: rgba(0, 0, 0, 0.65);
+  background: #ffffff;
+}
+.ant-menu-dark ul.ant-menu-sub li.ant-menu-item {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.ant-menu-dark .ant-menu-item .anticon, .ant-menu-dark .ant-menu-submenu-title .anticon {
+  margin-right: 0;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-danger {
+  color: #F64E4A;
+}
+
+.text-success {
+  color: #00990F;
+}
+
+.delete-header {
+  font-weight: bold;
+}
+
+.settings-menu-header {
+  color: #96A1B3;
+  padding-left: 25px;
+}
+
+.settings-menu-container.ant-menu {
+  background: transparent;
+  border-right: none;
+}
+
+.settings-menu-container.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-active {
+  background-color: #D3DBE2;
+}
+
+.settings-menu-container.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #108CEE;
+}
+
+.settings-menu-container.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected a {
+  color: #FFFFFF;
+}
+
+.reports-menu-header {
+  color: #96A1B3;
+  padding-left: 25px;
+}
+
+.reports-menu-container.ant-menu {
+  background: transparent;
+  border-right: none;
+}
+
+.reports-menu-container.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-active {
+  background-color: #D3DBE2;
+}
+
+.reports-menu-container.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #108CEE;
+  border-radius: 5px;
+}
+
+.reports-menu-container.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected a {
+  color: #FFFFFF;
+}
+
+.ant-menu-dark ul.ant-menu-sub .ant-menu-item a {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.ant-menu-submenu-open.ant-menu-submenu-active.pull-right {
+  color: #ffffff !important;
+}

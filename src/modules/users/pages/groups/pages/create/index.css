@@ -1,0 +1,12 @@
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-left: 0;
+  width: 100%;
+}
+
+.ant-list-item-meta-title {
+  padding-top: 7px;
+}
+
+.actions-container {
+  text-align: right;
+}

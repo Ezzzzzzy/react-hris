@@ -1,0 +1,19 @@
+.color-selector input[type="radio"] {
+    display: none;
+}
+
+span.color-selector-item {
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.ant-radio-wrapper-checked span.color-selector-item {
+    border: 3px solid #8CCCFF;
+}
+
+.color-selector-container div.ant-form-explain {
+    margin-top: 13px;
+}

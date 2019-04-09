@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.loading {
+  text-align: center;
+  border-radius: 4px;
+  padding: 30px 50px;
+  margin: 20px 0;
+  height: 90vh;
+}
+
+.ant-btn-primary {
+  background-color: #3CAD4B;
+  border-color: #2B9439;
+  color: #ffffff;
+}
+
+.ant-btn-primary:hover, .ant-btn-primary:active, .ant-btn-primary:focus {
+  background-color: rgb(70, 201, 88);
+  border-color: rgb(49, 165, 64);
+  color: #ffffff;
+}
+
+.ant-switch-checked {
+  background-color: #3CAD4B;
+}

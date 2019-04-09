@@ -1,0 +1,105 @@
+.sidebar-clientName-card {
+    background: #313D4F;
+    border-color: #313D4F;
+    color: #fff;
+}
+
+.sidebar-clientName-card > .ant-card-body {
+    padding: 10px;
+}
+
+.sidebar-clientName-card  h2 {
+    margin-bottom: -4px;
+    margin-top: -3px;
+    color: #fff;
+}
+
+.sidebar-clientName-card  h6 {
+    color: #67768A;
+    font-size: 11px;
+}
+
+.sidebar-bu-list {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 55vh;
+}
+
+.sidebar-content {
+    padding: 0 10px;
+    min-height: 76vh;
+}
+
+
+
+.sidebar-content ::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px #3C495D;
+	-webkit-box-shadow: inset 0 0 6px #3C495D;
+	border-radius: 20px;
+    background-color: #2E3A4C;
+    margin-left: 10px;
+}
+
+.sidebar-content ::-webkit-scrollbar
+{
+	width: 3px;
+    background-color: #2E3A4C;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.sidebar-content ::-webkit-scrollbar-thumb
+{
+    border-radius: 20px;
+    margin-left: 10px;
+	box-shadow: inset 0 0 6px #3C495D;
+	-webkit-box-shadow: inset 0 0 6px #3C495D;
+	background-color: #555;
+}
+
+
+.sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 8px;
+    width: 100%;
+}
+
+
+
+.sidebar-bu {
+    text-transform: uppercase;
+    color: #5B6779;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.sidebar-brand {
+    color: #B7C0CD;
+    font-size: 12px;
+}
+
+.sidebar-count {
+    color: #FAFAFB;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.sidebar-text_footer {
+    color: #5B6779;
+    font-size: 11px;
+
+}
+
+.sidebar-count_footer {
+    color: #FAFAFB;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+

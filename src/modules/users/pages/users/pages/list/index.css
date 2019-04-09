@@ -1,0 +1,27 @@
+.user-title {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.user-title .user-subtitle {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.reference-data p {
+    margin-bottom: 0;
+}
+
+.reference-data .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reference-data .sub-title {
+    font-size: 13px;
+    color: rgba(0,0,0,0.5);
+}
+
+.table-action-container .anticon {
+    font-size: 20px;
+}

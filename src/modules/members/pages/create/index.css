@@ -1,0 +1,44 @@
+.help-text {
+  font-style: italic;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.section-header {
+  border-left: 6px solid #1b91ec;
+  padding-left: 5px;
+  font-size: 1.8em;
+}
+
+.actions-container,
+.section-actions-container {
+  text-align: right;
+}
+
+.actions-container .ant-btn {
+  margin: 0 10px;
+}
+
+.section-actions-container .ant-btn {
+  margin-bottom: 10px;
+}
+
+.reference-data p {
+  margin-bottom: 0;
+}
+
+.reference-data .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.reference-data .sub-title {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+  .quick-links-container {
+    display: none;
+  }
+}

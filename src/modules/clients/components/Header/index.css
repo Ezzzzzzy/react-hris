@@ -1,0 +1,27 @@
+.client-header_sub-title {
+    text-align: center;
+}
+
+.client-header_sub-title > h1,
+.header_code {
+    margin-bottom: 0;
+    font-size: 34px;
+    font-weight: normal;
+    color: #354052
+}
+
+.client-header_sub-title > h5,
+.header_company  {
+    color: #7F8FA4
+}
+
+.table-client-member td {
+    line-height: 18px
+}
+.table-client-member p {
+    margin-bottom: 0
+}
+
+.ant-card-wider-padding .ant-card-body {
+    padding: 15px 30px;
+}

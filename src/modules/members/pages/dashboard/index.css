@@ -1,0 +1,96 @@
+.actions-container {
+    text-align: right;
+}
+
+.actions-container .ant-btn {
+    margin: 0 5px;
+}
+
+.profile-avatar-container {
+    text-align: center;
+}
+
+.detailed-profile-container {
+    column-count: 2;
+}
+
+.detailed-profile-container p {
+    margin-bottom: 0;
+}
+
+.profile-avatar-container .profile-avatar {
+    height: 75px;
+    width: 75px;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.profile-avatar-container .profile-avatar .ant-avatar-string {
+    line-height: 75px;
+    left: calc(50% - 27px);
+}
+
+.ant-timeline-item-head-custom {
+    background: transparent;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-content {
+    margin-top: -16px;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+    background: #fff;
+    padding: 16px;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar {
+    border-color: #fff;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-color: transparent;
+    background: transparent;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    border-color: #fff;
+    background: #fff;
+}
+
+span.left-timeline {
+    position: absolute;
+    top: 0;
+    left: -230px;
+    text-align: right;
+    width: 200px;
+}
+
+span.left-timeline h2, span.left-timeline p,
+.ant-timeline.dashboard-timeline .ant-card h2, 
+.ant-timeline.dashboard-timeline .ant-card p {
+    margin-bottom: 0;
+}
+
+.ant-timeline.dashboard-timeline {
+    padding-left: 200px;
+}
+
+.ant-timeline.dashboard-timeline .ant-card {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-right, .actions-container {
+        text-align: left;
+    }
+    span.left-timeline {
+        left: -150px;
+        width: 120px;
+    }
+    .ant-timeline.dashboard-timeline {
+        padding-left: 120px;
+    }
+    .detailed-profile-container {
+        font-size: 12px;
+    }
+}
